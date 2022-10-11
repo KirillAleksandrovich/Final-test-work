@@ -25,10 +25,10 @@ void FinishArray(string[] array1, string[] array2)
         }
     }
 }
-void PrintArray(string[] array)
 
+void PrintArray(string[] array)
 {
-    Console.Write("[  ");
+    Console.Write("[   ");
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]} ");
